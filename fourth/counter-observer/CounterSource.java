@@ -31,7 +31,8 @@ public class CounterSource extends Counter {
         return true;
     }
     
-    // (observer != null & taregt != null) => (observer = null).
+    // (observer != null & taregt != null & observer = target) 
+    //                                                 => (observer = null).
     public boolean unregister(CounterObserver target) {
     	if (this.observer == null || target == null) {
             return false;
