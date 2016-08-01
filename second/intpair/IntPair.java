@@ -17,7 +17,7 @@ class IntPair {
 
     @Override
     public boolean equals(Object obj) {
-    	if (obj == null) return false;
+        if (!(obj instanceof IntPair)) return false;
 
     	IntPair that = (IntPair) obj;
     	return (this == that ||

@@ -17,7 +17,7 @@ class StrPair {
 
     @Override
     public boolean equals(Object obj) {
-    	if (obj == null) return false;
+        if (!(obj instanceof StrPair)) return false;
 
     	StrPair that = (StrPair) obj;
     	return (this == that ||
