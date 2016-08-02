@@ -5,6 +5,7 @@ class Tab extends Component {
         return this.url;
     }
 
+    @Override
     public void reset() {
     	url = null;
     }

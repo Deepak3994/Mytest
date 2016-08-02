@@ -33,6 +33,7 @@ class IntPair {
         assert(p.equals(p));
         IntPair q = new IntPair(-1, 999);
         assert(p.equals(q));
+        assert(p != q);
 
         IntPair r = new IntPair(-2, 65535);
         assert(r.first() == -2);
