@@ -28,9 +28,10 @@
 |-----------------------------------------------------------------------------|
 | 6      Lecture                                                 Devi Prasad  |
 |                                                                             |
-|                   Generics, Collections and iterators.                      |
-|                   Builder pattern - string builder                          |
-|                   Designing resilient systems - Java exception processing.  |
+|                   Object-oriented design of a small part of messaging       |
+|                       application. Domain objects, and discovered objects.  |
+|                       coupling and cohesion.                                |
+|                   Design exercise.                                          |
 |-----------------------------------------------------------------------------|
 | 8      Lecture                                                 Sathya Malli |
 |                                                                Devi Prasad  | 
