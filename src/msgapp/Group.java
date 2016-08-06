@@ -4,7 +4,7 @@ class Group {
     private String id;
     private String name;
     private Contact owner;
-    private ArrayList<Contact> members;
+    private ArrayList<MessageReceiver> members;
 
     public Group(String id, String name, Contact owner) {
         assert(id != null && name != null && owner != null);
@@ -12,12 +12,12 @@ class Group {
         this.name = name;
         this.owner = owner;
 
-        members = new ArrayList<Contact>();
+        members = new ArrayList<MessageReceiver>();
         this.members.add(owner);
     }
 
     public boolean addMember(Contact newmember) {
-        for (Contact c: this.members) {
+        for (MessageReceiver c: this.members) {
             if (c.getId() == newmember.getId()) return false;
         }
 
