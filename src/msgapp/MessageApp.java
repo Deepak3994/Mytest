@@ -13,7 +13,7 @@ class MessageApp {
     public boolean addNewContact(String id, String name) {
     	MessageStore store = new SimpleMessageStore();
     	Contact c = Contact.create(id, name, store);
-    	return contacts.add(c);
+    	return this.contacts.add(c);
     }
 
     // FIX ME: COMPLETE THE IMPLEMENTATION!!!

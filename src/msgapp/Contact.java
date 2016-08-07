@@ -25,7 +25,8 @@ public class Contact implements MessageReceiver {
 
         return this.msgs.put(msg);
 	}
-    
+  
+    // factory method  
 	public static Contact create(String id, String name, MessageStore store) {
         Contact contact = new Contact(id, name);
         contact.msgs = store;

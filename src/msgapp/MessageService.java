@@ -1,6 +1,12 @@
 import java.util.Collection;
 
 class MessageService {
+    //TODO: COMPLETE ME!!!
+    public static boolean send(String senderId, String text,  
+                               MessageReceiver receiver)
+    {
+    }
+
     public static boolean send(String senderId, String text,  
                                Collection<MessageReceiver> contacts)
     {

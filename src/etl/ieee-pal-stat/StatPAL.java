@@ -50,7 +50,7 @@ public class StatPAL {
         }
     }
 
-    private void analyzeSheet(Sheet s) {
+    protected void analyzeSheet(Sheet s) {
         assert(s != null);
         Iterator<Row> rows = s.iterator();
         while (rows.hasNext()) {
@@ -58,7 +58,7 @@ public class StatPAL {
         }
     }
 
-    private void analyzeRow(Row r) {
+    protected void analyzeRow(Row r) {
         assert(r != null);
         int ncells = r.getPhysicalNumberOfCells();
         if (ncells < 9) return;

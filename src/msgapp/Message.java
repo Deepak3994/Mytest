@@ -74,7 +74,8 @@ class Message {
         return String.valueOf(sMsgId);
     }
 
-    static Message create(String text, String idSender) 
+    // factory method
+    public static Message create(String text, String idSender) 
                                                throws MessageTooLongException
     {
         assert(text != null && idSender != null);
