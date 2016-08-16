@@ -1,0 +1,53 @@
+
+    Fast-Track Java - The Schedule. From August-2 to August-10. (2016 Batch)
+
+  Date   Session    Topics                                       Instructor
++-----------------------------------------------------------------------------+
+| 2      Lecture                                                 Devi Prasad  |
+|                                                                             |
+|                   Object-orientation: what is it?                           |
+|                   Classes, objects, packages, and the execution model.      |
+|                   Basic data types, reading and displaying their values.    |
+|                   Assertions - specifying preconditions and postconditions. |
+|-----------------------------------------------------------------------------|
+| 3      Lecture                                                 Sathya Malli |
+|                                                                             |
+|                   Interfaces and abstract classes.                          |
+|                   Inheritance and behavior composition.                     |
+|                   Aggregation and composition of objects.                   |
+|-----------------------------------------------------------------------------|
+| 4      Lecture                                                 Sathya Malli |
+|                                                                Sudhakara U  |
+|                                                                             | 
+|                   Inner classes, anonymous instances.                       |
+|                   Enumerated data types.                                    |
+|                   Command line arguments.                                   |
+|                   Unit testing. Using JUnit to write tests.                 |
+|-----------------------------------------------------------------------------|
+| 5      Lab                                                                  |
+|-----------------------------------------------------------------------------|
+| 6      Lecture                                                 Devi Prasad  |
+|                                                                             |
+|                   Object-oriented design of a small part of messaging       |
+|                       application. Domain objects, and discovered objects.  |
+|                       coupling and cohesion.                                |
+|                   Design exercise.                                          |
+|-----------------------------------------------------------------------------|
+| 8      Lecture                                                 Sathya Malli |
+|                                                                Devi Prasad  | 
+|                   File IO and Network IO.                                   |
+|                   Reading data from CSV files.                              |
+|                                                                             |
+|                   Executing external commands from Java programs.           |
+|-----------------------------------------------------------------------------|
+| 9      Lecture                                                 Devi Prasad  |
+|                                                                             |
+|                   NoSQL database access                                     |
+|                   XML processing.                                           |
+|                   Java programing for ETL tasks.                            |
+|-----------------------------------------------------------------------------|
+| 10     Lecture                                                 Devi Prasad  |
+|                                                                             |
+|                   Java programing for ETL tasks.                            | 
++-----------------------------------------------------------------------------+
+

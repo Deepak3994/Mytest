@@ -1,0 +1,70 @@
+
+Session 1. August-2, Tuesday
+Introduction to the basic ideas of object-oriented software design.
+
+
+The evolution of programming languages from Fortran and Cobol to Algol and C.
+The evolution from C to C++, and then, Java.
+
+What motivated these gradual changes in the way people build software systems?
+A complex domain may be naturally viewed and understood in terms of 
+relations and interactions among constituent elements or components. In other
+words, large systems may be decomposed into smaller, logically well-defined
+collection of objects. We can try to understand the entire system by first
+developing an understanding of the constituent objects. Thus, decomposition
+essentially encourages object-oriented thinking about large systems.
+
+The same principles apply when we wish to construct new software systems.
+Large software development may necessitate larger groups of skilled people.
+It is much easier to manage development and maintenance of systems if 
+responsibilities are distributed across components and their respective 
+designers and developers. This leads to the notion of object-orientation in
+software development.
+
+Examples: 
+   (1) Web Browsers being composed of various components.
+   (2) Software that is running on an ATM.
+   (3) Recommendation systems of Amazon.
+
+Ideas you need to understand to be a an object-oriented programmer:
+    Objects as units of composition
+        encapsulation
+        information hiding
+        safety and security
+        state and behavior
+
+    Hierarchy of concepts in the problem domain
+        classes, objects
+        inheritance, composition and aggregation
+        packages
+    
+    Behavior composition
+        methods
+        polymorphism, behavior overriding 
+
+
+Java Program Development Samples
+(A)
+    Computing the mean of two numbers.
+    Computing the mean of three numbers.
+    Computing the mean of a collection of numbers.
+    Computing the median of a collection of numbers.
+
+(B)
+    Defining a namespace 'stat'.
+    Defining a helper object 'Basic' in 'stat' namespace.
+    Defining mean, median, mode, and other basic operations.
+
+(C)
+    using assertions to check correctness.
+
+(D)
+    static methods and member methods.
+    counting method calls on an instance of 'stat.Basic' class.
+    creating multiple instances of 'stat.Basic' class.
+
+The Java execution model and the execution environment
+    byte codes
+    JVM
+
+

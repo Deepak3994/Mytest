@@ -1,0 +1,42 @@
+
+Session 2. August-3, Wednesday
+Aggregation and composition of objects.
+Class inheritance.
+Defining and using interfaces.
+Abstract classes in Java.
+Various examples of interfaces and abstract classes in standard JDK.
+
+
+(1) Aggregation and composition of objects.
+
+Examples
+    (A) Windows and tabs.
+    (B) Directory structure in a file system.
+    (C) Slide Deck and Slides
+    (D) Messaging application: individual contact, groups, and messages.
+        (use WhatsApp, for reference.)
+
+Define classes, relations and operations for (A) and (B).
+
+(2) Class inheritance
+    (A) Model a tab as a window.
+    (B) Model a directory as a file.
+
+Program inheritance in Java.
+Discuss polymorphism.
+
+(3) Defining and using interfaces.
+    Contracts between objects and users/clients of objects.
+
+Program (A) and (B) using interfaces.
+
+(4) Abstract classes in Java.
+    What purpose do abstract classes serve?
+
+(5) Various examples of interfaces and abstract classes in standard JDK.
+
+Lab Assignments - derived from examples listed as (D) and (E) in (1) above.
+    (A) Slide Deck and Slides.
+    (B) Messaging application: individual contact, groups, and messages.
+        (use WhatsApp, for reference.)
+
